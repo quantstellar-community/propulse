@@ -1,2 +1,128 @@
-.venv/
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+develop-eggs/
+install_egg_info.cfg
 
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-env.txt
+env.bak/
+venv.bak/
+
+# ---- uv ----
+.uv/
+.trash/
+
+# ---- Environment / secrets ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# ---- Testing & coverage ----
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.hypothesis/
+.coverage
+.coverage.*
+.coverage.xml
+.cov/
+htmlcov/
+coverage.xml
+*.cover
+.cache/
+
+# ---- Build & docs artifacts ----
+_site/
+site/
+docs/_build/
+docs/_static/
+*.mo
+*.pot
+
+# ---- Jupyter / notebooks ----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.ipynb_checkpoints/*
+
+# ---- IDE / editor ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.tmp
+*.bak
+.azure/
+.vscode-server/
+
+# ---- OS ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ---- Data (PDB structures, processed data) ----
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/README.md
+
+# ---- Experiments / results ----
+experiments/*
+!experiments/README.md
+results/*
+!results/README.md
+!results/.gitkeep
+
+# ---- Large / derived artifacts ----
+*.pdb
+*.cif
+*.mmcif
+*.ent
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.mat
+*.parquet
+*.feather
+*.arrow
+*.dill
+*.joblib
+
+# ---- Logs & scratch ----
+logs/
+*.log
+*.log.*
+scratch/
+tmp/
+temp/
+
+# ---- Misc ----
+.coverage.html
+.python-version.bak
